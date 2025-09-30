@@ -1,0 +1,13 @@
+# Additional requirements for distributed training with DeepSpeed
+
+torch>=2.0.0
+torchvision>=0.15.0
+deepspeed>=0.12.0
+
+# For H100 GPU support
+nvidia-ml-py3>=11.495.46
+
+# Distributed training utilities
+mpi4py>=3.1.4
+psutil>=5.9.0
+

@@ -1,0 +1,11 @@
+# Example hostfile for multi-node training
+# Format: hostname slots=number_of_gpus
+# 
+# Example for 2 nodes with 8 H100 GPUs each:
+# node1.cluster.edu slots=8
+# node2.cluster.edu slots=8
+#
+# Replace with your actual node names:
+gpu-node-01 slots=8
+gpu-node-02 slots=8
+
